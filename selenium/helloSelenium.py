@@ -8,8 +8,9 @@ import time
 print("imlive")
 
 driver = webdriver.Chrome()
+driver.get("https://qsieip.qsitw.com/ehrportal/LoginFOpen.asp")
 
-driver.get("https://newhouse.591.com.tw/housing-list-6.html")
+# driver.get("https://newhouse.591.com.tw/housing-list-6.html")
 # totals = driver.find_element(By.XPATH, './/span[@class = "fc-red"]').text
 # totals = driver.find_element(By.XPATH, "//span[@class='fc-red' and @id='total-build']")
 # totals = driver.find_element(By.xpath("//span[@class='fc-red' and @id='total-build']"
