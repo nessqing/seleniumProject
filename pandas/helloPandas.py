@@ -1,7 +1,6 @@
 import pandas as harupandas
 
 path = ('/Users/haru/Desktop/pandaIP/smart_port00_2023DS2W0512G013.csv')
-
 df = harupandas.read_csv(path)
 print(df.shape[0])# count row in csv
 IP = str(path.split('/').__getitem__(-2))
